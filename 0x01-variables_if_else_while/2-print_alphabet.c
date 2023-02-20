@@ -14,7 +14,7 @@ int main(void)
 	{
 		/* printf("%c\n", my_char); */
 		putchar(my_char);
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
