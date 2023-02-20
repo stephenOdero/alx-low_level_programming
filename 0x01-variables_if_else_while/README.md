@@ -13,3 +13,12 @@
 6-print_numberz.c: A program to print all numbers from 0-9 using putchar but without using char data type
 7-print_tebahpla.c: A program that prints the lowercase alphabet in reverse followed by a newline
 8-print_base16.c : A program that prints all the numbers of base 16 in lowercase followed by a new line
+9-print_comb.c : A program that prints all possible combinations of single-digit number
+9-print_comb.c : A program that prints all possible combinations of single-digit number
+9-print_comb.c : A program that prints all possible combinations of single-digit number
+9-print_comb.c : A program that prints all possible combinations of single-digit number
+9-print_comb.c : A program that prints all possible combinations of single-digit number
+9-print_comb.c : A program that prints all possible combinations of single-digit number
+9-print_comb.c : A program that prints all possible combinations of single-digit number
+9-print_comb.c : A program that prints all possible combinations of single-digit number
+9-print_comb.c : A program that prints all possible combinations of single-digit number
