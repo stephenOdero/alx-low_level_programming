@@ -19,7 +19,7 @@ int main(void)
 	/* your code goes there */
 	if (n < 0)
 	{
-		n = -n;
+		n = n * -1;
 		/* Using only the positive values of n */
 	}
 	/* To find the last digit, use the Num % 10 to get */
