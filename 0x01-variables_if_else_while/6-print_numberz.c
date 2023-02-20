@@ -12,7 +12,7 @@ int main(void)
 	/* using for loop to go through a-z using ASCII */
 	for (my_num = 0; my_num <= 9; my_num++)
 	{
-		putchar(my_num);	
+		putchar('0' + my_num);
 	}
 	putchar('\n');
 	return (0);
