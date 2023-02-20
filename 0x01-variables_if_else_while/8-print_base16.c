@@ -11,7 +11,7 @@ int main(void)
 	int a;
 	int b = 97;
 
-	for (a = 0; a < 15; a++)
+	for (a = 0; a < 16; a++)
 	{
 		/* putchar('0'+a); */
 		if (a <= 9)
