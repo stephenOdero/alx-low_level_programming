@@ -15,8 +15,10 @@ int main(void)
 	/* my_int_char=itoa(a);*/
 	char myName[] = "Stephen Odero";
 	printf("My name is %s\n",myName);
-	char lastChar = myName[1];
+	char lastChar = myName[0];
 	printf("The last character in my name is: %c\n", lastChar);
 	/* printf("Inserted number in Character is %c\n", my_int_char); */
+	
+	printf("Last digit of number %d is:\n%d\n", a, a % 10);
 	return (0);
 }
