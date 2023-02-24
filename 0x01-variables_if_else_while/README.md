@@ -24,3 +24,4 @@
 9-print_comb.c : A program that prints all possible combinations of single-digit number
 100-print_comb3 : A program that prints all possible 2 digit combinations without repeating any two digits
 101-print_comb4 : A program that prints all possible 3 unique digits in an ascending order
+102-print_comb5.c : A program to print 4 unique numbers
