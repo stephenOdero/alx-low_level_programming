@@ -5,7 +5,11 @@
 
 void positive_or_negative(int i);
 int largest_number(int a, int b, int c);
-#endif /* MAIN_H */
+
+/**
+  * positive_or_negative - returns whether a number is > or < 0
+  * @i: the integer to check if positive or negative
+  */
 
 void positive_or_negative(int i)
 {
@@ -13,7 +17,7 @@ void positive_or_negative(int i)
 		printf("%d is positive\n", i);
 	else if (i < 0)
 		printf("%d is negative\n", i);
-	else if (i = 0)
+	else if (i == 0)
 		printf("%d is zero\n", i);
 }
 
@@ -37,3 +41,5 @@ int largest_number(int a, int b, int c)
 		largest = c;
 	return (largest);
 }
+
+#endif /* MAIN_H */
