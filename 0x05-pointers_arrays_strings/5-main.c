@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char s[10] = "My School";
+	char s[40] = "Lorem Ipsum Stephen Odero";
 
 	printf("%s\n", s);
 
