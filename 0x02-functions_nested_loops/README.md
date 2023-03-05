@@ -6,3 +6,4 @@ Directory on my excercises in Functions and Nested loops
 4-isalpha: A function that checks for alphabetic character. Returns 1 if c is a letter and 0 otherwise
 5-sign: A function that prints the sign of a number
 6-abs: A function that computes the absolute value of an integer
+7-print-last_digit: A function that prints the last digit of a number
