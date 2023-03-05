@@ -7,3 +7,4 @@ Directory on my excercises in Functions and Nested loops
 5-sign: A function that prints the sign of a number
 6-abs: A function that computes the absolute value of an integer
 7-print-last_digit: A function that prints the last digit of a number
+8-24_hours: A function that prints every minute of the day of Jack Bauer from 00:00 to 23:59
