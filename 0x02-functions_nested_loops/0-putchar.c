@@ -1,24 +1,23 @@
-/* #include "main.h" */
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
+
 /**
-  * main - main function of the program
-  * Description - A program that prints _putchar followed
-  * by a new line
-  * Return: 0 when everything is working well
-*/
+  * main - Program that prints _putchar folowed by a newline
+  * Return: 0
+  */
 
 int main(void)
 {
-	char myString[]="_putchar";
-	int i;
-	int strLength = strlen(myString);
+	char *my_char = "_putchar";
+	int i = 0;
 
-	for (i = 0; i < strLength; i++)
+	while (my_char[i] != '\0')
 	{
-		putchar(myString[i]);
+		_putchar(my_char[i]);
+		i++;
 	}
-	putchar('\n');
+
+	/* Printing newline */
+	_putchar('\n');
 
 	return (0);
 }
