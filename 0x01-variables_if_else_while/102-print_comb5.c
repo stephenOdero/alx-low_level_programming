@@ -19,7 +19,7 @@ int main(void)
 		{
 		for (c = a; c <= 9; c++)
 		{
-			for ( d = b + 1; d <= 9; d++)
+			for (d = b + 1; d <= 9; d++)
 			{
 			putchar('0' + a);
 			putchar('0' + b);
@@ -32,7 +32,7 @@ int main(void)
 			}
 			putchar(',');
 			putchar(' ');
-			}	
+			}
 		}
 		}
 	}
