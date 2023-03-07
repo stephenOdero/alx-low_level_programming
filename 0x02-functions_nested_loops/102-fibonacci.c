@@ -15,13 +15,13 @@ int main(void)
 
 	printf("%ld, %ld, ", a, b);
 
-	for (i = 0; i < 50; i++)
+	for (i = 0; i < 48; i++)
 	{
 		sum = a + b;
 		printf("%ld", sum);
 		a = b;
 		b = sum;
-		if (i == 49)
+		if (i == 47)
 			continue;
 		else
 			printf(", ");
