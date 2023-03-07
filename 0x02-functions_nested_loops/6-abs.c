@@ -15,7 +15,7 @@ int _abs(int x)
 	else if (x == 0)
 		return (0);
 	/* If x is negative */
-	else if (x < 0)
+	else
 		return (x * -1);
 
 }
