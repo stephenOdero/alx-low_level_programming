@@ -18,13 +18,18 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 	{
 		if (((i % 3) == 0) && ((i % 5) != 0))
-			printf("%s ", f);
+			printf("%s", f);
 		else if (((i % 5) == 0) && ((i % 3) != 0))
-			printf("%s ", b);
+			printf("%s", b);
 		else if (((i % 3) == 0) && ((i % 5) == 0))
-			printf("%s%s ", f, b);
+			printf("%s%s", f, b);
 		else
-			printf("%d ", i);
+			printf("%d", i);
+
+		if (i == 100)
+			continue;
+		else
+			printf(" ");
 	}
 
 	printf("\n");
