@@ -13,7 +13,7 @@ int main(void)
 	long int sum;
 	int i;
 
-	printf("%ld\n%ld\n", a, b);
+	printf("%ld, %ld, ", a, b);
 
 	for (i = 0; i < 50; i++)
 	{
@@ -21,8 +21,11 @@ int main(void)
 		printf("%ld", sum);
 		a = b;
 		b = sum;
-		printf("\n");
+		if (i == 49)
+			continue;
+		else
+			printf(", ");
 	}
-
+	printf("\n");
 	return (0);
 }
